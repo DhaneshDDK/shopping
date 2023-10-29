@@ -32,7 +32,7 @@ const LoginPage = () => {
       <div className='text-white text-[28px] mx-auto font-bold'>Welcome to Ecomzy</div>
 
         <form onSubmit={handleOnSubmit}
-         className='w-[670px] mx-auto  h-[400px] flex flex-col gap-y-6 rounded-md py-6 px-4 ' >
+         className='w-[100%] md:w-[670px] mx-auto  h-[400px] flex flex-col gap-y-6 rounded-md py-6 px-4 ' >
          
          <input type="text"
          name = "email"
